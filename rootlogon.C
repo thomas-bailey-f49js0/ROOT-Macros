@@ -1,0 +1,20 @@
+{
+gStyle->SetOptStat(1111111);
+gStyle->SetTitleSize(0.06,"XYZ");
+gStyle->SetTitleSize(0.08,"T");
+gStyle->SetStatStyle(0);
+gStyle->SetPadLeftMargin(0.15);
+gStyle->SetPadRightMargin(0.1);
+gStyle->SetLabelSize(0.04,"XY");
+gStyle->SetLabelSize(0.04,"Z");
+// gStyle->SetLabelSize(0.03,"X");
+gStyle->SetPadBottomMargin(0.13);
+gStyle->SetLegendTextSize(0.05);
+gStyle->SetHistLineWidth(2);
+gStyle->SetTitleX(0.5);
+gStyle->SetTitleAlign(23);
+gStyle->SetLabelOffset(0.005,"Y");
+gStyle->SetTitleOffset(1.2,"Y");
+gStyle->SetLabelOffset(0.005,"X");
+gStyle->SetTitleOffset(0.7,"X");
+}
